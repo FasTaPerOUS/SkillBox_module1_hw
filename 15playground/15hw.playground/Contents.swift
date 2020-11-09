@@ -38,7 +38,7 @@ func z(str1: String, str2: String, left: srtingReturn, right: srtingReturn) -> (
     let x = left(str1) + right(str2)
     return { print(x) }
 }
-
+ 
 
 z(str1: "Task", str2: "6", left: { a in return a + " " }, right: {b in return b + "."})
 

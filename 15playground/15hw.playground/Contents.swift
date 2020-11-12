@@ -40,7 +40,7 @@ func z(str1: String, str2: String, left: srtingReturn, right: srtingReturn) -> (
 }
 
 
-z(str1: "Task", str2: "6", left: { a in return a + " " }, right: {b in return b + "."})
+z(str1: "Task", str2: "7", left: { a in return a + " " }, right: {b in return b + "."})()
 
 
 //8
